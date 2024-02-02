@@ -1,0 +1,85 @@
+/*General*/
+body {
+  background-image: url("../../images/homePage/homePageImage.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: 1500px ;
+}
+
+/*Homepage*/
+.home-page {
+  text-align: center;
+}
+
+/*Home Page Title*/
+.home-page-title {
+  background-color: rgba(70, 103, 105, 0.515);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 228px;
+}
+
+.home-page-title-down {
+  margin-top: 100px;
+}
+
+.home-page-title-big-text{
+  color: aliceblue;
+  font-family: Lexend, Arial;
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  text-decoration: underline;
+}
+
+.home-page-title-small-text {
+  color: aliceblue;
+  font-family: Lexend, Arial;
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: -70px;
+}
+
+@media (min-width: 0px) and (max-width: 530px){
+  .home-page-title {
+    height: 130.4px;
+  }
+
+  .home-page-title-big-text{
+    font-size: 40px;
+  }
+
+  .home-page-title-small-text {
+    color: aliceblue;
+    font-family: Lexend, Arial;
+    font-size: 10px;
+    font-weight: 100;
+    margin-top: -40px;
+  }
+}
+
+/*Homepage Meals Button*/
+.home-page-meals-button {
+  margin-top: 50px;
+}
+
+.home-page-meals-button button {
+  font-family: Roboto, Arial;
+  font-size: 20px;
+  background-color: rgba(70, 103, 105, 0.832);
+  color: aliceblue;
+  padding: 15px 20px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 55px;
+}
+
+.home-page-meals-button button:hover {
+  border-radius: 10px;
+  font-size: 19.5px;
+  background-color: rgb(70, 103, 105);
+  transition: 0.5s;
+}

@@ -1,0 +1,112 @@
+.contact-page {
+  margin-bottom: 100px;
+}
+
+.contact-page-title {
+  text-align: center;
+  color: aliceblue;
+  font-size: 50px;
+  font-family: Lexend, Arial;
+  letter-spacing: -3px;
+  padding: 0px 15px;
+}
+
+.contact-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+  width: auto;
+  justify-items:center;
+  text-align: center;
+}
+
+.contact-page-grid-phone,
+.contact-page-grid-instagram {
+  background-color: rgb(39, 42, 45);
+  height: 300px;
+  width: 60%;
+  margin: 0px 10px;
+  transition: 0.5s;
+  justify-items: center;
+}
+
+.contact-page-grid-phone:hover,
+.contact-page-grid-instagram:hover{
+  box-shadow: 0px 0px 20px #f1ae0e;
+  transition: 0.5s;
+}
+
+.contact-page-grid a {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.contact-page-grid i{
+  font-size: 50px;
+  margin-top: 30px;  
+  border-radius: 100px;
+  padding: 10px 16px;
+  color: aliceblue;
+}
+
+.contact-page-grid-phone-icon {
+  background-color: rgb(17, 150, 88);
+}
+
+.contact-page-grid-instagram-icon {
+  background:
+  linear-gradient(rgb(123, 0, 255), transparent),
+  linear-gradient(to top left, rgb(255, 13, 0), transparent),
+  linear-gradient(to top right, rgb(242, 255, 0), transparent);
+}
+
+.contact-page-grid p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 10px;
+}
+
+.contact-address-title{
+  
+  color: #f1ae0e;
+}
+
+.contact-address {
+  color: aliceblue;
+}
+
+@media (min-width: 0px) and (max-width: 800px){
+  .contact-page-grid a {
+    font-size: 25px;
+  }
+
+}
+
+@media (min-width: 0px) and (max-width: 700px){
+  .contact-page-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .contact-page-grid-phone,
+  .contact-page-grid-instagram {
+    height: 270px;
+  }
+
+  .contact-page-grid a {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 400px){
+  .contact-page-grid a {
+    font-size: 20px;
+  }
+
+  .contact-page-grid i{
+    font-size: 40px;
+    margin-top: 30px;  
+    border-radius: 100px;
+    padding: 10px 16px;
+    color: aliceblue;
+  }
+}
